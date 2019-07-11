@@ -20,18 +20,17 @@ You are free to modify my project but make sure you dont forget to give me prope
 ## Screen Shots
 
 #### 1)Front/Index Page
-a)
-<img src="https://i.ibb.co/VTQX4FV/1.png" alt="1" border="0">
-b)
-<img src="https://i.ibb.co/T0WZgrZ/2.png" alt="2" border="0">
-c)
-<img src="https://i.ibb.co/8KfSmXm/3.png" alt="3" border="0">
-d)
-<img src="https://i.ibb.co/6HzdBPh/4.png" alt="4" border="0">
-e)
-<img src="https://i.ibb.co/1ZLDVWT/5.png" alt="5" border="0">
-f)
-<img src="https://i.ibb.co/VQJP8wT/6.png" alt="6" border="0">
+a)<img src="https://i.ibb.co/VTQX4FV/1.png" alt="1" border="0">
+
+b)<img src="https://i.ibb.co/T0WZgrZ/2.png" alt="2" border="0">
+
+c)<img src="https://i.ibb.co/8KfSmXm/3.png" alt="3" border="0">
+
+d)<img src="https://i.ibb.co/6HzdBPh/4.png" alt="4" border="0">
+
+e)<img src="https://i.ibb.co/1ZLDVWT/5.png" alt="5" border="0">
+
+f)<img src="https://i.ibb.co/VQJP8wT/6.png" alt="6" border="0">
 
 #### 2)Sub Directory Page
 <img src="https://i.ibb.co/Q9TG0Rs/1.png" alt="1" border="0">
