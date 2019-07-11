@@ -20,6 +20,7 @@ You are free to modify my project but make sure you dont forget to give me prope
 ## Screen Shots
 
 #### 1)Front/Index Page
+
 a)<img src="https://i.ibb.co/VTQX4FV/1.png" alt="1" border="0">
 
 b)<img src="https://i.ibb.co/T0WZgrZ/2.png" alt="2" border="0">
