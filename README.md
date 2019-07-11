@@ -53,7 +53,7 @@ More ScreenShots can be found here:-https://drive.google.com/open?id=1sDqkhkript
 
 ## License
 
-This project is licensed under the GPL3 License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GPL3 License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
