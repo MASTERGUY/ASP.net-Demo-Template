@@ -1,0 +1,101 @@
+[
+  {
+    "outputFileName": "js/bundle.js",
+    "inputFiles": [
+      "js/bootstrap.js",
+      "js/bootstrap.min.js",
+      "js/combinedjavascript.js",
+      "js/jquery.js",
+      "js/contact.js",
+      "js/jquery.smartmenus.bootstrap.js",
+      "js/jquery.smartmenus.js",
+      "js/SomeeAdsRemover.js",
+      "js/tutorial.js",
+      "js/wow.min.js"
+    ]
+  },
+  {
+    "outputFileName": "css/bundle.css",
+    "inputFiles": [
+      "css/1-col-portfolio.css",
+      "css/bootstrap.css",
+      "css/bootstrap.min.css",
+      "css/combinedcss.css",
+      "css/fa-brands.min.css",
+      "css/fa-brands.css",
+      "css/fa-regular.min.css",
+      "css/fa-regular.css",
+      "css/fa-solid.css",
+      "css/fa-solid.min.css",
+      "css/font-awesome.css",
+      "css/font-awesome.min.css",
+      "css/fontawesome-all.css",
+      "css/fontawesome-all.min.css",
+      "css/fontawesome.css",
+      "css/fontawesome.min.css",
+      "css/jquery.smartmenus.bootstrap.css"
+    ]
+  },
+  {
+    "outputFileName": "css/allinone.css",
+    "inputFiles": [
+      "css/bootstrap.css",
+      "css/owl.transitions.css",
+      "css/owl.theme.css",
+      "css/owl.carousel.css",
+      "css/jquery.smartmenus.bootstrap.css",
+      "css/fontawesome.css",
+      "css/fontawesome.min.css",
+      "css/fontawesome-all.css",
+      "css/fontawesome-all.min.css",
+      "css/font-awesome.min.css",
+      "css/font-awesome.css",
+      "css/fa-solid.min.css",
+      "css/fa-solid.css",
+      "css/fa-regular.min.css",
+      "css/fa-brands.min.css",
+      "css/fa-regular.css",
+      "css/fa-brands.css",
+      "css/combinedcss.css",
+      "css/bootstrap.min.css",
+      "css/owl/owl.transitions.css",
+      "css/1-col-portfolio.css",
+      "css/owl/owl.theme.css",
+      "css/owl/owl.carousel.css"
+    ]
+  },
+  {
+    "outputFileName": "css/owl/allinone.js",
+    "inputFiles": [
+      "css/owl/owl.carousel.js",
+      "js/bootstrap.js",
+      "js/bootstrap.min.js",
+      "js/bundle.js",
+      "js/bundle.min.js",
+      "js/combinedjavascript.js",
+      "js/contact.js",
+      "js/jquery.smartmenus.bootstrap.js",
+      "js/jquery.js",
+      "js/jquery.smartmenus.js",
+      "js/SomeeAdsRemover.js",
+      "js/tutorial.js",
+      "js/wow.min.js"
+    ]
+  },
+  {
+    "outputFileName": "css/owl/bundle.css",
+    "inputFiles": [
+      "css/owl/owl.carousel.css",
+      "css/owl/owl.theme.css",
+      "css/owl/owl.transitions.css"
+    ]
+  },
+  {
+    "outputFileName": "css/owl/1.css",
+    "inputFiles": [
+      "css/owl/owl.theme.css",
+      "css/owl/owl.transitions.css",
+      "css/owl/owl.carousel.css"
+    ]
+  }
+]

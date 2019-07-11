@@ -1,0 +1,168 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="MTP" %>
+<%@ Import Namespace="SquishIt.Framework" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head runat="server">
+    <%= Bundle.Css()
+        .Add("/css/bootstrap.min.css")
+        .Add("/css/jquery.smartmenus.bootstrap.css")
+        .Add("/css/owl/owl.carousel.css")
+        .Add("/css/owl/owl.carousel.css")
+        .Add("/css/owl/owl.theme.css")
+        .Add("css/owl/owl.transitions.css")
+        .Add("/css/fontawesome-all.css")
+        .Add("/fonts/font-awesome.css")
+        .Render("/css/combinedcss.css")
+    %>
+    <%= Bundle.JavaScript()
+        .Add("/js/jquery.js")
+        .Add("/js/bootstrap.min.js")
+        .Add("/js/wow.min.js")
+        .Add("/js/tutorial.js")
+        .Add("/css/owl/owl.carousel.js")
+        .Add("/js/jquery.smartmenus.js")
+        .Add("/js/jquery.smartmenus.bootstrap.js")
+        .Add("/js/contact.js")
+        .Add("/js/shortestads.js")
+        .Render("/js/combinedjavascript.js")
+    %>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Your Discription Here" />
+    <meta name="author" content="Your Name Here" />
+    <meta name="Keywords" content="Website keywords Here"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="url" content="Website Url Here" />
+    <meta property="site_name" content="Website Name Here" />
+    <meta property="article:publisher" content="Social Media Name Here" />
+
+    <!-- Custom CSS -->
+    <link href="css/1-col-portfolio.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet'
+        type='text/css' />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400italic,700italic,400,700"
+        rel="stylesheet" type="text/css" />
+    <!-- Required plugin - Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" />
+    <link href="/fonts/font-awesome.css" rel="stylesheet" type="text/css" />
+     <link href="/css/searchbar.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <!-- Header Navbar fixed top -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+                  <a class="navbar-brand"  href="/index.aspx"> Demo</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <!-- Left nav -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li runat="server" id="home"><a href="/index.aspx" runat="server">Home</a></li>
+                     <li class="dropdown" runat="server" ><a href="/demo.aspx" class="dropdown-toggle" data-toggle="dropdown"
+                        role="button" aria-haspopup="true" aria-expanded="false" runat="server">Demo 1<span
+                            id="Span1" class="caret" runat="server"></span></a>
+                        <ul class="dropdown-menu" data-dropdown-in="fadeInUp" data-dropdown-out="fadeOutDown">
+                            <li><a href="/demo.aspx">Demo WebPage 1&nbsp;</a></li>
+                            <li><a href="/demo1.aspx">Demo WebPage 2&nbsp;</a></li>
+                            </ul>
+                    </li>
+                    <li class="dropdown" runat="server" ><a href="/demo.aspx" class="dropdown-toggle" data-toggle="dropdown"
+                        role="button" aria-haspopup="true" aria-expanded="false" runat="server">Demo 2<span
+                            id="Span2" class="caret" runat="server"></span></a>
+                        <ul class="dropdown-menu" data-dropdown-in="fadeInUp" data-dropdown-out="fadeOutDown">
+                            <li><a href="/demo.aspx">Demo WebPage 1&nbsp;</a></li>
+                            <li><a href="/demo1.aspx">Demo WebPage 2&nbsp;</a></li>
+                            </ul>
+                    </li>
+                    <li class="dropdown" runat="server" ><a href="/demo.aspx" class="dropdown-toggle" data-toggle="dropdown"
+                        role="button" aria-haspopup="true" aria-expanded="false" runat="server">Demo 3<span
+                            id="Span3" class="caret" runat="server"></span></a>
+                        <ul class="dropdown-menu" data-dropdown-in="fadeInUp" data-dropdown-out="fadeOutDown">
+                            <li><a href="/demo.aspx">Demo WebPage 1&nbsp;</a></li>
+                            <li><a href="/demo1.aspx">Demo WebPage 2&nbsp;</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <!-- add search form -->
+
+                        <div class="navbar-form" role="search" id="searchContainer">
+                        
+                        
+                            <div class="search">
+
+      <input type="text" class="searchTerm" placeholder="Search Here">
+      <button type="submit" class="searchButton">
+        Search
+     </button>
+   </div>        
+                        </div>
+                            
+                        
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <%--main Content--%>
+    <div class="container-fluid">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                <span
+                        class="icon-bar"></span>
+            </p>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <footer id="fh5co-footer" class="padding100">
+			
+			<div class="fh5co-footer-content">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-4 col-md-push-3 animated wow fadeInLeft" data-wow-delay="0.2s">
+							<h3 class="fh5co-lead">Demo About</h3>
+							<ul>
+                                <li><a href="/About.aspx">Demo About-Us</a></li>
+								<li><a href="/Owner.html">Demo Owner & Helpers</a></li>
+								
+							</ul>
+						</div>
+						<div class="col-md-3 col-sm-4 col-md-push-3 animated wow fadeInLeft" data-wow-delay="0.4s">
+							<h3 class="fh5co-lead">Demo Support</h3>
+							<ul>
+								
+								<li><a href="/Terms%20and%20condition.html">Demo Terms & Conditions</a></li>
+								<li><a href="/Privacy Policy.html">Demo Privacy Policy</a></li>
+                                <li><a href="/cookies.html">Demo Cookies Policy</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3 col-sm-4 col-md-push-3 animated wow fadeInLeft" data-wow-delay="0.6s">
+							<h3 class="fh5co-lead">Demo Contact US</h3>
+							<ul>
+                                
+                                <li><a href="/Contact-Via-Email.aspx">DemoContact E-Mail </a></li>
+                                <li><a href="/Feedback.aspx">Demo Feedback</a></li>
+                                
+                            </ul>
+                            </div>
+                         	<div class="col-md-3 col-sm-12  col-md-pull-9 animated wow fadeInLeft" data-wow-delay="0.8s">
+							<div class="fh5co-footer-logo"><a href="/index.aspx">Demo</a></div>
+							<p class="fh5co-copyright"><small>Demo Copyrights© 2019. All Rights Reserved. </small></p>
+						</div>
+					</div>
+				</div>
+			</div>
+               
+</footer>
+    </form>
+    </body>
+</html>

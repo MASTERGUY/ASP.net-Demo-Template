@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>Demo Cookies</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/jquery.smartmenus.bootstrap.css" rel="stylesheet" />
+    <link href="css/owl/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl/owl.theme.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl/owl.transitions.css" rel="stylesheet" type="text/css" />
+    <link href="css/fontawesome-all.css" rel="stylesheet" />
+    <link href="css/1-col-portfolio.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css' />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400italic,700italic,400,700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" />
+    <link href="fonts/font-awesome.css" rel="stylesheet" type="text/css" /><!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Your Discription Here" />
+    <meta name="author" content="Your Name Here" />
+    <meta name="Keywords" content="Website keywords Here" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="url" content="Website Url Here" />
+    <meta property="site_name" content="Website Name Here" />
+    <meta property="article:publisher" content="Social Media Name Here" />
+
+    <!-- Custom CSS -->
+    <link href="css/1-col-portfolio.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet'
+          type='text/css' />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400italic,700italic,400,700"
+          rel="stylesheet" type="text/css" />
+    <!-- Required plugin - Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" />
+    <link href="/fonts/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="/css/searchbar.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/index.aspx"> Demo</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <!-- Left nav -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li runat="server" id="home"><a href="/index.aspx" runat="server">Home</a></li>
+                    <li class="dropdown" runat="server">
+                        <a href="/demo.aspx" class="dropdown-toggle" data-toggle="dropdown"
+                           role="button" aria-haspopup="true" aria-expanded="false" runat="server">
+                            Demo 1<span id="Span1" class="caret" runat="server"></span>
+                        </a>
+                        <ul class="dropdown-menu" data-dropdown-in="fadeInUp" data-dropdown-out="fadeOutDown">
+                            <li><a href="/demo.aspx">Demo WebPage 1&nbsp;</a></li>
+                            <li><a href="/demo1.aspx">Demo WebPage 2&nbsp;</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown" runat="server">
+                        <a href="/demo.aspx" class="dropdown-toggle" data-toggle="dropdown"
+                           role="button" aria-haspopup="true" aria-expanded="false" runat="server">
+                            Demo 2<span id="Span2" class="caret" runat="server"></span>
+                        </a>
+                        <ul class="dropdown-menu" data-dropdown-in="fadeInUp" data-dropdown-out="fadeOutDown">
+                            <li><a href="/demo.aspx">Demo WebPage 1&nbsp;</a></li>
+                            <li><a href="/demo1.aspx">Demo WebPage 2&nbsp;</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown" runat="server">
+                        <a href="/demo.aspx" class="dropdown-toggle" data-toggle="dropdown"
+                           role="button" aria-haspopup="true" aria-expanded="false" runat="server">
+                            Demo 3<span id="Span3" class="caret" runat="server"></span>
+                        </a>
+                        <ul class="dropdown-menu" data-dropdown-in="fadeInUp" data-dropdown-out="fadeOutDown">
+                            <li><a href="/demo.aspx">Demo WebPage 1&nbsp;</a></li>
+                            <li><a href="/demo1.aspx">Demo WebPage 2&nbsp;</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <!-- add search form -->
+
+                        <div class="navbar-form" role="search" id="searchContainer">
+                            <div class="search">
+
+                                <input type="text" class="searchTerm" placeholder="Search Here" />
+                                <button type="submit" class="searchButton">
+                                    Search
+                                </button>
+                            </div>     
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <!-- Heading -->
+            <div class="section-header">
+                <div class="row section-title">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <center><h1><b>Cookies Policy</b></h1></center>
+                        <p>Last updated: March 20, 2018</p>
+                        <p>Demo Website ("us", "we", or "our") uses cookies on this website (the "Service"). By using the Service, you consent to the use of cookies.</p>
+                        <p>Our Cookies Policy explains what cookies are, how we use cookies, how third-parties we may partner with may use cookies on the Service, your choices regarding cookies and further information about cookies.</p>
+                        <h2><b>What are cookies</b></h2>
+                        <p>Cookies are small pieces of text sent by your web browser by a website you visit. A cookie file is stored in your web browser and allows the Service or a third-party to recognize you and make your next visit easier and the Service more useful to you.</p>
+                        <p>Cookies can be "persistent" or "session" cookies. Persistent cookies remain on your personal computer or mobile device when you go offline, while session cookies are deleted as soon as you close your web browser.</p>
+                        <center> <h2><b>How This Website uses cookies</b></h2></center>
+                        <p>When you use and access the Service, we may place a number of cookies files in your web browser.</p>
+                        <p>We use cookies for the following purposes:</p>
+                        <ul>
+                            <li>
+                                <p>To enable certain functions of the Service</p>
+
+                                <p>We use both session and persistent cookies on the Service and we use different types of cookies to run the Service:</p>
+                                <p>Essential cookies. We may use essential cookies to authenticate users and prevent fraudulent use of user accounts.</p>
+                            </li>
+                            <li>
+                                <p>To Provide Long-Term Services</p>
+
+                                <p>We analyze our website traffic with Googe Analytis to compare this site with other sites</p>
+                                <p>This website will grow up regularly and we will add more secure services in some time</p>
+                            </li>
+                        </ul>
+                        <center><h2><b>What are your choices regarding cookies</b></h2></center>
+                        <p>If you'd like to delete cookies or instruct your web browser to delete or refuse cookies, please visit the help pages of your web browser.</p>
+                        <p>Please note, however, that if you delete cookies or refuse to accept them, you might not be able to use all of the features we offer, you may not be able to store your preferences, and some of our pages might not display properly.</p>
+                        <ul>
+                            <li>
+                                <p>For the Chrome web browser, please visit this page from Google: <a href="https://support.google.com/accounts/answer/32050">https://support.google.com/accounts/answer/32050</a></p>
+                            </li>
+                            <li>
+                                <p>For the Internet Explorer web browser, please visit this page from Microsoft: <a href="http://support.microsoft.com/kb/278835">http://support.microsoft.com/kb/278835</a></p>
+                            </li>
+                            <li>
+                                <p>For the Firefox web browser, please visit this page from Mozilla: <a href="https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored">https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored</a></p>
+                            </li>
+                            <li>
+                                <p>For the Safari web browser, please visit this page from Apple: <a href="https://support.apple.com/kb/PH21411?locale=en_US">https://support.apple.com/kb/PH21411?locale=en_US</a></p>
+                            </li>
+                            <li>
+                                <p>For any other web browser, please visit your web browser's official web pages.</p>
+                            </li>
+                        </ul>
+                        <center><h2><b>Where can you find more information about cookies</b></h2></center>
+                        <p>You can learn more about cookies and the following third-party websites:</p>
+                        <ul>
+                            <li>
+                                <p>AllAboutCookies: <a href="http://www.allaboutcookies.org/">http://www.allaboutcookies.org/</a></p>
+                            </li>
+                            <li>
+                                <p>Network Advertising Initiative: <a href="http://www.networkadvertising.org/">http://www.networkadvertising.org/</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="fh5co-footer" class="padding100">
+
+        <div class="fh5co-footer-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-md-push-3 animated wow fadeInLeft" data-wow-delay="0.2s">
+                        <h3 class="fh5co-lead">Demo About</h3>
+                        <ul>
+                            <li><a href="/About.aspx">Demo About-Us</a></li>
+                            <li><a href="/Owner.html">Demo Owner & Helpers</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-md-push-3 animated wow fadeInLeft" data-wow-delay="0.4s">
+                        <h3 class="fh5co-lead">Demo Support</h3>
+                        <ul>
+
+                            <li><a href="/Terms%20and%20condition.html">Demo Terms & Conditions</a></li>
+                            <li><a href="/Privacy Policy.html">Demo Privacy Policy</a></li>
+                            <li><a href="/cookies.html">Demo Cookies Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-md-push-3 animated wow fadeInLeft" data-wow-delay="0.6s">
+                        <h3 class="fh5co-lead">Demo Contact US</h3>
+                        <ul>
+
+                            <li><a href="/Contact-Via-Email.aspx">DemoContact E-Mail </a></li>
+                            <li><a href="/Feedback.aspx">Demo Feedback</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-12  col-md-pull-9 animated wow fadeInLeft" data-wow-delay="0.8s">
+                        <div class="fh5co-footer-logo"><a href="/index.aspx">Demo</a></div>
+                        <p class="fh5co-copyright"><small>Demo Copyrights© 2019. All Rights Reserved. </small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"><script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js" type="text/javascript"></script>
+    <script src="js/tutorial.js"></script>
+    <script src="css/owl/owl.carousel.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jquery.smartmenus.js"></script>
+    <script type="text/javascript" src="js/jquery.smartmenus.bootstrap.js"></script>
+    <script src="js/contact.js" type="text/javascript"></script>
+</body>
+</html>

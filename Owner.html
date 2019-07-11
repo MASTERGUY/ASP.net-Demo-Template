@@ -1,0 +1,372 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>Demo Owner</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/jquery.smartmenus.bootstrap.css" rel="stylesheet" />
+    <link href="css/owl/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl/owl.theme.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl/owl.transitions.css" rel="stylesheet" type="text/css" />
+    <link href="css/fontawesome-all.css" rel="stylesheet" />
+    <link href="css/1-col-portfolio.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css' />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400italic,700italic,400,700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" />
+    <link href="fonts/font-awesome.css" rel="stylesheet" type="text/css" /><!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Your Discription Here" />
+    <meta name="author" content="Your Name Here" />
+    <meta name="Keywords" content="Website keywords Here" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="url" content="Website Url Here" />
+    <meta property="site_name" content="Website Name Here" />
+    <meta property="article:publisher" content="Social Media Name Here" />
+
+    <!-- Custom CSS -->
+    <link href="css/1-col-portfolio.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet'
+          type='text/css' />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400italic,700italic,400,700"
+          rel="stylesheet" type="text/css" />
+    <!-- Required plugin - Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" />
+    <link href="/fonts/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="/css/searchbar.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/index.aspx"> Demo</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <!-- Left nav -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li runat="server" id="home"><a href="/index.aspx" runat="server">Home</a></li>
+                    <li class="dropdown" runat="server">
+                        <a href="/demo.aspx" class="dropdown-toggle" data-toggle="dropdown"
+                           role="button" aria-haspopup="true" aria-expanded="false" runat="server">
+                            Demo 1<span id="Span1" class="caret" runat="server"></span>
+                        </a>
+                        <ul class="dropdown-menu" data-dropdown-in="fadeInUp" data-dropdown-out="fadeOutDown">
+                            <li><a href="/demo.aspx">Demo WebPage 1&nbsp;</a></li>
+                            <li><a href="/demo1.aspx">Demo WebPage 2&nbsp;</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown" runat="server">
+                        <a href="/demo.aspx" class="dropdown-toggle" data-toggle="dropdown"
+                           role="button" aria-haspopup="true" aria-expanded="false" runat="server">
+                            Demo 2<span id="Span2" class="caret" runat="server"></span>
+                        </a>
+                        <ul class="dropdown-menu" data-dropdown-in="fadeInUp" data-dropdown-out="fadeOutDown">
+                            <li><a href="/demo.aspx">Demo WebPage 1&nbsp;</a></li>
+                            <li><a href="/demo1.aspx">Demo WebPage 2&nbsp;</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown" runat="server">
+                        <a href="/demo.aspx" class="dropdown-toggle" data-toggle="dropdown"
+                           role="button" aria-haspopup="true" aria-expanded="false" runat="server">
+                            Demo 3<span id="Span3" class="caret" runat="server"></span>
+                        </a>
+                        <ul class="dropdown-menu" data-dropdown-in="fadeInUp" data-dropdown-out="fadeOutDown">
+                            <li><a href="/demo.aspx">Demo WebPage 1&nbsp;</a></li>
+                            <li><a href="/demo1.aspx">Demo WebPage 2&nbsp;</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <!-- add search form -->
+
+                        <div class="navbar-form" role="search" id="searchContainer">
+                            <div class="search">
+
+                                <input type="text" class="searchTerm" placeholder="Search Here" />
+                                <button type="submit" class="searchButton">
+                                    Search
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div id="banner">
+
+
+        <h1 style="color:black" class="wow zoomIn animated" data-wow-duration="1500ms" data-wow-delay="100ms">
+            <center><b>Did you Like This Website?</b></center>
+        </h1>
+        <h2 style="color:white" class="wow zoomIn animated text-center" data-wow-duration="1500ms" data-wow-delay="100ms">
+
+            <center><big><b>Kindly Share It With Others  </b></big></center>
+
+        </h2>
+
+    </div><div class="contact padding100">
+        <div class="container">
+            <div class="row">
+                <section id="pt1" class="white">
+                    <!-- Box-1 -->
+                    <div class="col-md-4 col-sm-6 portfolio-item wow zoomIn animated" data-wow-duration="1500ms" data-wow-delay="100ms">
+                        <a href="#Personone" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <center><i class="fa fa-camera-retro"></i></center>
+                                </div>
+                            </div>
+                            <center><img src="img/Owner-Helpers/1(1).jpg" class="img-responsive" alt="" /></center>
+                        </a>
+                        <div class="portfolio-caption">
+                            <center>
+                                <h4 style="color:black"><b>Person 1</b></h4>
+                                <p class="text-muted"><b>Person Name</b></p>
+                            </center>
+                        </div>
+                    </div>
+                    <!-- Box-2 -->
+                    <div class="col-md-4 col-sm-6 portfolio-item wow zoomIn animated" data-wow-duration="1500ms" data-wow-delay="100ms">
+                        <a href="#Persontwo" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <center><i class="fa fa-camera-retro"></i></center>
+                                </div>
+                            </div>
+                            <center><img src="img/Owner-Helpers/2(2).jpg" class="img-responsive" alt="" /></center>
+                        </a>
+                        <div class="portfolio-caption">
+                            <center>
+                                <h4 style="color:black"><b>Person 2</b></h4>
+                                <p class="text-muted"><b>Person Name</b></p>
+                            </center>
+                        </div>
+                    </div>
+                    <!-- Box-3 -->
+                    <div class="col-md-4 col-sm-6 portfolio-item wow zoomIn animated" data-wow-duration="1500ms" data-wow-delay="100ms">
+                        <a href="#Personthree" class="portfolio-link" data-toggle="modal">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content">
+                                    <center><i class="fa fa-camera-retro"></i></center>
+                                </div>
+                            </div>
+                            <center><img src="img/Owner-Helpers/3(3).jpg" class="img-responsive" alt="" /></center>
+                        </a>
+                        <div class="portfolio-caption">
+                            <center>
+                                <h4 style="color:black"><b>Person 3</b></h4>
+                                <p class="text-muted"><b>Person Name</b></p>
+                            </center>
+                        </div>
+                    </div>
+                    <!-- ======================================== Portfolio Modals ======================================== -->
+                    <!-- Use the modals below to showcase details about your portfolio projects! -->
+                    <!-- Portfolio Modal 1 -->
+                    <div class="portfolio-modal modal fade" id="Personone" tabindex="-1" role="dialog"
+                         aria-hidden="true">
+                        <div class="modal-content">
+                            <div class="close-modal" data-dismiss="modal">
+                                <div class="lr">
+                                    <div class="rl">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="modal-body">
+                                            <!-- Project Details Go Here -->
+                                            <h2>
+                                                Heading
+                                            </h2>
+                                            <p class="item-intro text-muted">
+                                                Person Name
+                                            </p>
+                                            <div class="col-lg-6">
+                                                <img class="img-responsive img-centered" src="img/Owner-Helpers/1.jpg" alt="" />
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <p style="color:black">
+                                                    <b>Person Info</b>
+                                                </p>
+                                                <p style="color:black">
+                                                    <strong>
+                                                        More Details
+                                                    </strong>
+                                                </p>
+                                                <ul style="color:black" class="list-inline">
+                                                    <br />
+                                                    <li>Contact Details: </li>
+                                                    <br />
+                                                    <li>Personal Website:</li>
+                                                    <br />
+
+                                                </ul>
+                                                <button type="button" class="btn btn-primary" data-dismiss="modal">
+                                                    Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Modal 2 -->
+                    <div class="portfolio-modal modal fade" id="Persontwo" tabindex="-1" role="dialog"
+                         aria-hidden="true">
+                        <div class="modal-content">
+                            <div class="close-modal" data-dismiss="modal">
+                                <div class="lr">
+                                    <div class="rl">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="modal-body">
+                                            <h2>
+                                                Heading
+                                            </h2>
+                                            <p class="item-intro text-muted">
+                                                Person Name
+                                            </p>
+                                            <div class="col-lg-6">
+                                                <img class="img-responsive img-centered" src="img/Owner-Helpers/2.jpg" alt="" />
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <p style="color:black">
+                                                    Person Info
+                                                </p>
+                                                <p style="color:black">
+                                                    <strong>
+                                                        Person Details
+                                                    </strong>
+                                                    <ul style="color:black" class="list-inline">
+                                                        <br />
+                                                        <li>Contact Details:</li>
+                                                        <br />
+
+                                                        <li>Profession: </li>
+                                                    </ul>
+                                                </p>
+                                                <button type="button" class="btn btn-primary" data-dismiss="modal">
+                                                    Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Portfolio Modal 3 -->
+                    <div class="portfolio-modal modal fade" id="Personthree" tabindex="-1" role="dialog"
+                         aria-hidden="true">
+                        <div class="modal-content">
+                            <div class="close-modal" data-dismiss="modal">
+                                <div class="lr">
+                                    <div class="rl">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="modal-body">
+                                            <!-- Project Details Go Here -->
+                                            <h2>
+                                                Heading
+                                            </h2>
+                                            <p class="item-intro text-muted">
+                                                Person Name
+                                            </p>
+                                            <div class="col-lg-6">
+                                                <img class="img-responsive img-centered" src="img/Owner-Helpers/3.jpg" alt="" />
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <p style="color:black">Person Info</p>
+                                                <p style="color:black">
+                                                    <strong>
+                                                        Person Details
+                                                    </strong>
+                                                    <ul style="color:black" class="list-inline">
+
+                                                        <li>Contact Details: </li>
+                                                        <br />
+                                                        <li>Profession: </li>
+                                                        <br />
+                                                    </ul>
+                                                </p>
+                                                <button type="button" class="btn btn-primary" data-dismiss="modal">
+                                                    Close
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div><footer id="fh5co-footer" class="padding100">
+
+        <div class="fh5co-footer-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-md-push-3 animated wow fadeInLeft" data-wow-delay="0.2s">
+                        <h3 class="fh5co-lead">Demo About</h3>
+                        <ul>
+                            <li><a href="/About.aspx">Demo About-Us</a></li>
+                            <li><a href="/Owner.html">Demo Owner & Helpers</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-md-push-3 animated wow fadeInLeft" data-wow-delay="0.4s">
+                        <h3 class="fh5co-lead">Demo Support</h3>
+                        <ul>
+
+                            <li><a href="/Terms%20and%20condition.html">Demo Terms & Conditions</a></li>
+                            <li><a href="/Privacy Policy.html">Demo Privacy Policy</a></li>
+                            <li><a href="/cookies.html">Demo Cookies Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-md-push-3 animated wow fadeInLeft" data-wow-delay="0.6s">
+                        <h3 class="fh5co-lead">Demo Contact US</h3>
+                        <ul>
+
+                            <li><a href="/Contact-Via-Email.aspx">DemoContact E-Mail </a></li>
+                            <li><a href="/Feedback.aspx">Demo Feedback</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-12  col-md-pull-9 animated wow fadeInLeft" data-wow-delay="0.8s">
+                        <div class="fh5co-footer-logo"><a href="/index.aspx">Demo</a></div>
+                        <p class="fh5co-copyright"><small>Demo Copyrights© 2019. All Rights Reserved. </small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"><script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js" type="text/javascript"></script>
+    <script src="js/tutorial.js"></script>
+    <script src="css/owl/owl.carousel.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jquery.smartmenus.js"></script>
+    <script type="text/javascript" src="js/jquery.smartmenus.bootstrap.js"></script>
+    <script src="js/contact.js" type="text/javascript"></script>
+</body>
+</html>
+  </body>
+</html>
