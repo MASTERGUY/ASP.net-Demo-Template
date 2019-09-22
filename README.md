@@ -1,9 +1,11 @@
 # ASP.Net-Demo-Template
-Asp.Netet User friendly website template with some features and adons
-
+Asp.Net User friendly website template with some features and adons
+This Website is a static website with no inclusion of any database
+the main purpose of it to serve users what they are looking for 
+Live Demo of website can be found here :- <a href="https://g-files.ml">G-Files</a>
 ### Prerequisites
 
-You Can download this code and run its index file with visual studio and it will run
+You can download this code and run it's index file with visual studio and it will run.
 
 If You Want to Modfiy or use my project as base you Need Visual Studio and .Net Framework 4.0 to modify according to your needs
 
@@ -39,7 +41,7 @@ f)<img src="https://i.ibb.co/VQJP8wT/6.png" alt="6" border="0">
 #### 3)Owner Info Page
 <img src="https://i.ibb.co/Vmh45HZ/1.png" alt="1" border="0">
 
-#### 4)FeeBack Page
+#### 4)FeedBack Page
 <img src="https://i.ibb.co/cxb95Ln/1.png" alt="1" border="0">
 
 More ScreenShots can be found here:-https://drive.google.com/open?id=1sDqkhkriptMmSErmPnDh72lb7lYC5VeG
